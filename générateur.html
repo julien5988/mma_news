@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>MMA NEWS</title>
+</head>
+<body class="text-center bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+    <h1 class="text-3xl font-bold mb-8">Quel combattant UFC es-tu ? </h1>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="genererCombattant()">Sélectionner un combattant</button>
+    <div class="combattant text-2xl mt-8" id="combattant"></div>
+    <div class="mt-4 mx-auto max-w-xs">
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img class="w-full h-auto" id="image" src="https://img.freepik.com/photos-premium/gros-point-interrogation-theme-sombre-themes-interrogatifs_183270-416.jpg" alt="Image du combattant">
+      </div>
+    </div>
+   <a href="index.html"><img class="h-20" src="images/return.svg" alt="">Accueil</a> 
+    <script src="générateur.js"></script>
+  </body>
+</html>

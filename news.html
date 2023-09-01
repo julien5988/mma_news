@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>MMA NEWS</title>
+</head>
+<body >
+    <header class="bg-white z-50 fixed top-0 w-full shadow">
+        <nav id="main-nav" class="bg-white max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between">
+          <a href="index.html" class="flex items-center" aria-label="Page d'accueil mma news">
+            <img src="images/logo.png" class="w-6 md:w-16 mr-4" alt="" />
+            <span aria-hidden="true" class="text-lg lg:text-xl">
+              MMA <strong>NEWS<span class="text-rose-600">.</span></strong>
+            </span>
+          </a>
+          <button aria-label="toggle button" aria-expanded="false" id="menu-btn" class="cursor-pointer w-7 md:hidden">
+            <img src="images/menu.svg" alt="">
+          </button>
+          <ul id="toggled-menu" class="bg-white text-center w-full absolute top-full left-0 -translate-y-full -z-10 text-gray-800 border-b border-gray-200 md:static md:z-10 md:w-min md:transform-none md:border-none md:flex md:flex-row md:space-x-6 md:items-center md:justify-center md:ml-auto">
+            <li class="py-4 md:py-0 whitespace-nowrap">
+              <a href="index.html" class="text-sm uppercase font-semibold w-full hover:text-red-600">Accueil</a>
+            </li>
+            <li class="py-4 md:py-0 whitespace-nowrap">
+              <a href="les-combattants.html" class="text-center text-sm uppercase font-semibold w-full hover:text-red-600">Les combattants</a>
+            </li>
+            <li class="py-4 md:py-0 flex-grow whitespace-nowrap">
+              <a href="combattant-du-mois.html" class="text-sm uppercase font-semibold w-full hover:text-red-600">Combattant du mois</a>
+            </li>
+            <li class="py-4 md:py-0 whitespace-nowrap">
+              <a href="news.html" class="text-sm uppercase font-semibold w-full hover:text-red-600">News</a>
+            </li>
+            <li class="py-4 md:py-0 whitespace-nowrap">
+              <a href="contact.html" class="text-sm uppercase font-semibold w-full hover:text-red-600">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="bg-[url('https://ekladata.com/wx4S2IrGNJE28oEffQvyWpOjN1M.png')] bg-cover h-screen">
+        <div class="flex flex-col items-center justify-end h-full">
+          <button class="bg-black p-2 rounded-md animate-bounce"><a class="text-4xl text-gradient bg-clip-text text-transparent bg-gradient-to-tr from-blue-500  to-red-500 font-semibold mt-auto mb-24 " href="générateur.html ">Cliquer ici</a></button>
+        </div>
+      </main>
+      <footer class="bg-red-600  ">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="index.html" class="flex items-center mb-4 sm:mb-0">
+              <img src="images/logo.png" class="h-8 mr-3" alt="mma logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">MMA NEWS</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
+              <li>
+                <a href="index.html" class="mr-4 hover:underline md:mr-6">Accueil</a>
+              </li>
+              <li>
+                <a href="les-combattants.html" class="mr-4 hover:underline md:mr-6">Les combattants</a>
+              </li>
+              <li>
+                <a href="combattant-du-mois.html" class="mr-4 hover:underline md:mr-6">Combattant du mois</a>
+              </li>
+              <li>
+                <a href="news.html" class="mr-4 hover:underline">News</a>
+              </li>
+              <li>
+                <a href="contact.html" class="hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <div class="flex items-center justify-center mb-4">
+            <input type="email" placeholder="S'inscrire à la newsletter" class="w-64 p-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">S'abonner</button>
+          </div>
+          <span class="block text-sm text-white sm:text-center">© 2023 Thoumy Julien.</span>
+        </div>
+      </footer>
+<script src="script-tailwind.js"></script>
+</body>
+</html>
